@@ -108,6 +108,7 @@ function MapWithSearch() {
           label="Search places"
           variant="outlined"
           fullWidth
+          placeholder='Type your City............'
           onChange={(e) => setQuery(e.target.value)}
           sx={{ width: '300px' }}
           InputProps={{
